@@ -46,6 +46,12 @@ class Book
         System.out.println("Title" + title);
         System.out.println("Author" + author);
         System.out.println("Pages" + pages);
+        if(refNumber.length() > 1) 
+            {    
+                System.out.print("ZZZ");
+            }
+            else
+                System.out.print(refNumber);
     }
     public void setRefNumber(String ref)
     {
